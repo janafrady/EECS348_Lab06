@@ -1,3 +1,12 @@
+<!--
+Name: Jana Frady
+KUID: 3085051
+Lab Session: Thursday 4 p.m.
+Lab Assignment Number: 06
+Program Description: This creates a multiplication table from user-inputted size.
+Collaborators: None
+-->
+
 <?php
 
 $size = $_GET["size"];

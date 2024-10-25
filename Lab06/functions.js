@@ -1,4 +1,13 @@
+/*
+Name: Jana Frady
+KUID: 3085051
+Lab Session: Thursday 4 p.m.
+Lab Assignment Number: 06
+Program Description: This creates functions for practice2 and practice3.
+Collaborators: None
+*/
 
+// changes border color, border width, and background color from user-inputted values
 function alert_paragraph_color() {    
     var border_R = document.getElementById("border_R").value;
     var border_G = document.getElementById("border_G").value;
@@ -15,6 +24,7 @@ function alert_paragraph_color() {
     element.style.backgroundColor = `rgb(${backR},${backG},${backB})`;
 }
 
+// checks if both passwords are more than eight characters and the same
 function validate(){
     var first = document.getElementById("first").value;
     var second = document.getElementById("second").value;
